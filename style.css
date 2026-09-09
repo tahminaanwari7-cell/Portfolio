@@ -21,7 +21,6 @@ body {
 .navv{
     display: flex;
     gap: 8px;
-   padding-left: 9rem;
    align-items: center;
 }
 .navv img{
@@ -2766,9 +2765,7 @@ li {
         font-size: 8px;
     }
 
-    .telegram {
-        display: none;
-    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -2786,6 +2783,340 @@ font-size: 18px;
         line-height: 1.6;
     }
 
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 6%;
+    border-bottom: 1px solid #e9e6e6;
+    background: #fff;
+
+    gap: 20px;
+}
+
+.navv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding-left: 0;
+    flex-shrink: 0;
+}
+
+.navv img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navv p {
+    margin: 0;
+    color: rgb(47, 45, 45);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.menu a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/* CHAT */
+
+.chat_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 20px;
+
+    border-radius: 33px;
+
+    color: black;
+    background: #f5f5f5;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+
+    white-space: nowrap;
+
+    flex-shrink: 0;
+
+    transition: .3s ease;
+}
+
+.chat_btn:hover {
+    background: #111;
+    color: white;
+}
+
+
+/* TELEGRAM */
+
+.telegram {
+    width: 20px;
+    height: 20px;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(9, 107, 167);
+    color: white;
+
+    font-size: 9px;
+
+    padding: 0;
+    margin-right: 7px;
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================
+   900px
+========================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 12px 25px;
+        gap: 15px;
+    }
+
+    .nav_link {
+        gap: 15px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .chat_btn {
+        padding: 9px 13px;
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   600px
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+
+    .navv {
+        gap: 6px;
+        padding-left: 0 !important;
+    }
+
+    .navv img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .navv p {
+        font-size: 10px;
+    }
+
+    .nav_link {
+        gap: 9px;
+        padding: 0 !important;
+    }
+
+    /* NEVER HIDE MENU */
+
+    .menu {
+        display: flex !important;
+        gap: 9px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .menu a:hover {
+        font-size: 10px;
+    }
+
+    .chat_btn {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    /* NEVER HIDE TELEGRAM */
+
+    .telegram {
+        display: flex !important;
+
+        width: 18px;
+        height: 18px;
+
+        margin-right: 4px;
+        padding: 0;
+
+        font-size: 8px;
+    }
+}
+
+
+/* =========================
+   565px
+========================= */
+
+@media (max-width: 565px) {
+
+    .navbar {
+        padding: 9px 10px;
+        gap: 7px;
+    }
+
+    .navv {
+        gap: 5px;
+    }
+
+    .navv img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .navv p {
+        font-size: 9px;
+    }
+
+    .nav_link {
+        gap: 6px;
+    }
+
+    .menu {
+        gap: 7px;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .chat_btn {
+        padding: 7px 9px;
+        font-size: 9px;
+    }
+
+    .telegram {
+        display: flex !important;
+
+        width: 17px;
+        height: 17px;
+
+        margin-right: 3px;
+        font-size: 7px;
+    }
+}
+
+
+/* =========================
+   450px
+========================= */
+
+@media (max-width: 450px) {
+
+    .navbar {
+        padding: 8px 7px;
+        gap: 5px;
+    }
+
+    .navv {
+        gap: 4px;
+    }
+
+    .navv img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .navv p {
+        font-size: 8px;
+    }
+
+    .nav_link {
+        gap: 4px;
+    }
+
+    .menu {
+        gap: 5px;
+    }
+
+    .menu a {
+        font-size: 8px;
+    }
+
+    .chat_btn {
+        padding: 6px 7px;
+        font-size: 8px;
+    }
+
+    .telegram {
+        display: flex !important;
+
+        width: 15px;
+        height: 15px;
+
+        margin-right: 3px;
+
+        font-size: 6px;
+    }
 }
 
 
