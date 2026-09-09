@@ -293,7 +293,13 @@ font-size: 20px;
 }
 .small{
     font-size: 18px;
+padding-left: 60px;
 }
+.small2{
+    margin-right: 1rem;
+     font-size: 18px;
+}
+
 .feet3 a:hover{
     color: gray;
 }
@@ -1306,7 +1312,7 @@ li {
         width: calc(100% - 80px);
         margin: 25px 40px 0;
     }
-
+    
 
     /* ================= ABOUT ================= */
 
@@ -1951,8 +1957,9 @@ li {
     }
 
     .small {
-        font-size: 12px;
+        font-size: 18px;
     }
+  
 
     .last {
         width: calc(100% - 40px);
