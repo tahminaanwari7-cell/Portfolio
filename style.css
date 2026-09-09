@@ -967,7 +967,7 @@ border-radius: 15px;
 
 /* Header */
 header {
-    background: #173b57;
+    background: black;
     color: white;
     padding: 35px 45px;
     display: flex;
@@ -982,7 +982,7 @@ header h1 {
 
 .job-title {
     font-size: 18px;
-    color: #5ec6d6;
+    color: goldenrod;
 }
 
 .contact {
@@ -1016,10 +1016,10 @@ section {
 }
 
 h2 {
-    color: #173b57;
+    color: black;
     font-size: 21px;
     text-transform: uppercase;
-    border-bottom: 2px solid #5ec6d6;
+    border-bottom: 2px solid goldenrod;
     padding-bottom: 7px;
     margin-bottom: 15px;
 }
@@ -1035,7 +1035,7 @@ h3 {
 }
 
 .company {
-    color: #1593a8;
+    color: goldenrod;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 8px;
@@ -1069,7 +1069,7 @@ li {
 
 .bar div {
     height: 100%;
-    background: #1593a8;
+    background: goldenrod;
     border-radius: 10px;
 }
 
