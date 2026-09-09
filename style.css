@@ -119,7 +119,7 @@ transition-duration: 1s;
 .omid{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 8px;
     justify-content: center;
     margin-top: 2rem;
 }
